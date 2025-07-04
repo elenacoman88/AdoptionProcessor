@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitAdoption.ProducerAPI", "WebApplication2\RabbitAdoption.ProducerAPI.csproj", "{267EE9C9-3FDE-47B7-8CF0-974A46E310BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitAdoption.WorkerService", "RabbitAdoption.WorkerService\RabbitAdoption.WorkerService.csproj", "{8B16E52A-3A40-4364-AF75-429204B18479}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{267EE9C9-3FDE-47B7-8CF0-974A46E310BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267EE9C9-3FDE-47B7-8CF0-974A46E310BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267EE9C9-3FDE-47B7-8CF0-974A46E310BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267EE9C9-3FDE-47B7-8CF0-974A46E310BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B16E52A-3A40-4364-AF75-429204B18479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B16E52A-3A40-4364-AF75-429204B18479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B16E52A-3A40-4364-AF75-429204B18479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B16E52A-3A40-4364-AF75-429204B18479}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82EB6042-C162-4BBE-96C7-D63886F7BB21}
+	EndGlobalSection
+EndGlobal
